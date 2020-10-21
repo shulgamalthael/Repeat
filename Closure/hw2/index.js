@@ -1,6 +1,6 @@
 let memoty = [];
 
-function createLoger() {
+export function createLoger() {
     
     function warn(message) {
         memory.push({
