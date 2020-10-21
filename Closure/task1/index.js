@@ -1,5 +1,10 @@
-export function makeCounter() {
+ function makeCounter() {
     let count = 0;
 
-    return count++;
-}
+    return function() {
+        return count++;
+    }
+ }
+
+ const counter = makeCounter();
+ const counter1 = makeCounter();
