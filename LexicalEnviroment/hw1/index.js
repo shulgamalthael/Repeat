@@ -1,4 +1,4 @@
-memory = 0;
+    let memory = 0;
 
     export function add(num) {
         memory += num;
