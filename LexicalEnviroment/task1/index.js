@@ -9,6 +9,6 @@ export function setMessage(text) {
     message = text;
 }
 
-setMessage('Good job');
+// setMessage('Good job');
 
 sendMessage('Ann');
