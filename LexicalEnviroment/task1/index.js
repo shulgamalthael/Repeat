@@ -1,4 +1,4 @@
-let message = ', Just learn it! Your Gromcode';
+let message = 'Just learn it';
 const sender = 'Your Gromcode';
 
 export function sendMessage(name) {
@@ -11,4 +11,4 @@ export function setMessage(text) {
 
 setMessage('Good job');
 
-sendMessage('Eva');
+sendMessage('Ann');
