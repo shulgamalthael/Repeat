@@ -12,7 +12,7 @@
 let message = 'Just learn it'
 let sender = 'Gromcode'
 
-export default createMessenger = () => {
+export default function createMessenger() {
 
     user = {
 
