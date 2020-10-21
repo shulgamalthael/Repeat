@@ -3,13 +3,11 @@ export function createCalculator() {
     let memo = 0;
 
     function add(num) {
-        // memo += num;
-        console.log(memo+=num);
+        memo += num;
     }
 
     function decrease(num) {
         memo -= num;
-        console.log(memo -= num);
     }
 
     function reset() {
