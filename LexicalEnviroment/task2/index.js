@@ -9,24 +9,39 @@
 ////input: string sender
 ////output: string
 
-let message = 'Just learn it'
-let sender = 'Gromcode'
+const createMessenger = () => {
 
-export default function createMessenger() {
+    let message = 'Just learn it'
+    let sender = 'Gromcode'
 
-    user = {
+    function sendMessage(name) {
+        console.log(`${name}, ${message}! Your ${sender}`)
+    }
 
-        sendMessage(name) {
-            console.log(`${name}, ${message}! Your ${sender}`)
-        },
+    function setMessage(text) {
+        message = text;
+    }
 
-        setMessage(text) {
-            message = text;
-        },
+    function setSender(send) {
+        sender = send;
+    }
 
-        setSender(send) {
-            sender = send;
-        }
+    return {
+        sendMessage,
+        setMessage,
+        setSender
     }
 
 }
+
+// const messanger = createMessenger();
+// messanger.sendMessage('Bob');
+// 
+// const messanger1 = createMessenger();
+// messanger1.sendMessage('Nikita');
+// messanger1.setMessage('Good job');
+// 
+// const messanger2 = createMessenger();
+// messanger2.setMessage('Waf :)');
+// messanger2.setSender('Nikita');
+// messanger2.sendMessage('Eva');
