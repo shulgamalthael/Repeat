@@ -30,8 +30,3 @@ export default function createMessenger() {
     }
 
 }
-
-createMessage();
-user.setSender('Gromcode');
-user.setMessage('Good job');
-user.sendMessage('Bob');
