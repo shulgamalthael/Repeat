@@ -1,6 +1,6 @@
 //Algo:
 //1.createMessage function
-////input: none
+////input: undefined
 ////output: object
 //2.setMessage function
 ////input: string message
@@ -12,7 +12,7 @@
 let message = 'Just learn it'
 let sender = 'Gromcode'
 
-export function createMessage() {
+export default createMessenger = () => {
 
     user = {
 
