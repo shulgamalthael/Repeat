@@ -5,7 +5,7 @@ for(var i = 0; i < 10; i++) {
         return i;
     }
 
-    console.log(arr[i]());
+    // console.log(arr[i]());
 }
 
 export { arr };
