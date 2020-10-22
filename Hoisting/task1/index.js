@@ -1,11 +1,11 @@
-var arr = [];
+let arr = [];
 
-for(var i = 0; i < 10; i++) {
+for(let i = 0; i < 10; i++) {
     arr[i] = function() {
         return i;
     }
-
-    // console.log(arr[i]());
 }
+
+// console.log(arr[2]());
 
 export { arr };
